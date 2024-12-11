@@ -20,5 +20,6 @@ const todoSchema = new Schema ({
     }
 });
 
+
 const Todomodel = Db.model('todo', todoSchema);
 module.exports = Todomodel; 
